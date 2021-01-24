@@ -31,6 +31,15 @@
         "has_social": true,
         "social_links": [
             {
+                "label": "Reddit",
+                "url": "https://www.reddit.com/u/jercypacks0n",
+                "style": "icon",
+                "icon_class": "reddit",
+                "new_window": false,
+                "no_follow": false,
+                "type": "action"
+            },
+            {
                 "label": "Twitter",
                 "url": "https://twitter.com/jercypackson",
                 "style": "icon",
@@ -43,15 +52,6 @@
                 "style": "icon",
                 "icon_class": "instagram",
                 "new_window": true
-            },
-            {
-                "label": "Reddit",
-                "url": "https://www.reddit.com/u/jercypacks0n",
-                "style": "icon",
-                "icon_class": "reddit",
-                "new_window": false,
-                "no_follow": false,
-                "type": "action"
             },
             {
                 "label": "GitHub",
