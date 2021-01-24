@@ -45,13 +45,6 @@
                 "new_window": true
             },
             {
-                "label": "GitHub",
-                "url": "https://github.com/jercypackson",
-                "style": "icon",
-                "icon_class": "github",
-                "new_window": true
-            },
-            {
                 "label": "Reddit",
                 "url": "https://www.reddit.com/u/jercypacks0n",
                 "style": "icon",
@@ -59,6 +52,13 @@
                 "new_window": false,
                 "no_follow": false,
                 "type": "action"
+            },
+            {
+                "label": "GitHub",
+                "url": "https://github.com/jercypackson",
+                "style": "icon",
+                "icon_class": "github",
+                "new_window": true
             }
         ]
     },
