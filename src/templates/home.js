@@ -32,7 +32,7 @@ export default class Home extends React.Component {
                         let posts_sorted = _.orderBy(posts, 'frontmatter.date', 'desc');
                         return (
                           _.map(posts_sorted, (post, post_idx) => (
-                          <article key={post_idx} className="post">
+                          <article key={post_idx} className="post" id="post-id">
                             <header className="post-header">
                               <h2 className="post-title"><Link to={withPrefix(_.get(post, 'url', null))} rel="bookmark">{_.get(post, 'frontmatter.title', null)}</Link></h2>
                               <div className="post-meta">
